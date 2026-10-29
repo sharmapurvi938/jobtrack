@@ -1,82 +1,86 @@
-# JobTrack — Job Application Tracker
+# JobTrack — Job Application Tracking Dashboard
 
-## Overview
+JobTrack is a web application that helps job seekers organize their job applications, monitor recruitment progress, and keep track of interviews and follow-ups in one place.
 
-JobTrack is a React-based web application for organizing and tracking job applications. It provides a centralized dashboard to monitor application statuses, review application statistics, and manage recruitment progress.
+## Live Demo
+
+**Try JobTrack:** https://jobtrack-sage-eta.vercel.app/
 
 ## Features
 
 - **Dashboard:** View application statistics and recruitment progress.
-- **Application Management:** Add, edit, and delete job application records.
-- **Status Tracking:** Track applications through Applied, Assessment, Interview, Offer, and Rejected stages.
-- **Search and Filtering:** Find applications using search and status filters.
-- **Data Visualization:** View application summaries using charts.
-- **Follow-up Reminders:** Review applications that require follow-up.
-- **Interview Tracker:** Review upcoming interviews.
+- **Application Management:** Add, edit, and delete job applications.
+- **Search and Filters:** Find applications and organize them by status.
+- **Application Status Tracking:** Track Applied, Assessment, Interview, Offer, and Rejected applications.
+- **Interview Tracking:** Keep track of interview-stage applications.
+- **Follow-up Reminders:** Organize upcoming follow-ups.
 - **CSV Import and Export:** Import and export application records.
-- **Persistent Storage:** Store application data in the browser using localStorage.
+- **Data Persistence:** Save application data in browser local storage.
+- **Charts and Visualizations:** View application statistics through dashboard charts.
 
 ## Technologies Used
 
-- React 19
+- React
 - JavaScript
-- Vite 8
-- Recharts 3
+- Vite
 - CSS
-- Browser localStorage
+- Recharts
+- Browser Local Storage
 
-## Prerequisites
+## Getting Started
 
-Install Node.js and npm before running the project.
+### Prerequisites
 
-## Installation
+Install Node.js and npm on your computer.
 
-Clone or download the project, open a terminal in the project directory, and run:
+### Installation
 
-```bash
-npm install
-```
+1. Clone the repository:
 
-## Run the Development Server
+   ```bash
+   git clone https://github.com/sharmapurvi938/jobtrack.git
+   ```
 
-```bash
-npm run dev
-```
+2. Navigate to the project folder:
 
-Open the local URL printed in the terminal.
+   ```bash
+   cd jobtrack
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
 
 ## Production Build
 
-Generate the production build using:
+To create a production build, run:
 
 ```bash
 npm run build
 ```
 
-The generated production files are placed in the `dist` directory.
-
-## Preview the Production Build
-
-```bash
-npm run preview
-```
-
-## Code Quality Check
-
-Run ESLint using:
-
-```bash
-npm run lint
-```
-
 ## Data Storage
 
-Application records are saved in browser localStorage. The data is associated with the browser and origin used by the application; it is not automatically synchronized across different browsers or devices.
+JobTrack uses browser local storage to persist application data. The data is stored locally in the browser and is not automatically synchronized across devices.
 
 ## Future Improvements
 
-- Backend integration and cloud-based data synchronization.
-- User authentication and individual accounts.
-- More advanced application analytics.
-- Automated reminders and notifications.
-- Improved production bundle optimization.
+- Add user authentication.
+- Introduce cloud-based data storage and synchronization.
+- Add automated email reminders.
+- Improve application analytics and reporting.
+
+## Links
+
+- **Live Demo:** https://jobtrack-sage-eta.vercel.app/
+- **GitHub Repository:** https://github.com/sharmapurvi938/jobtrack
