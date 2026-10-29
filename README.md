@@ -3,9 +3,10 @@
 JobTrack is a web application that helps job seekers organize their job applications, monitor recruitment progress, and keep track of interviews and follow-ups in one place.
 
 ## Live Demo
-DashBoard Preview
+
 **Try JobTrack:** https://jobtrack-sage-eta.vercel.app/
 
+DashBoard Preview
 ## Features
 
 - **Dashboard:** View application statistics and recruitment progress.
